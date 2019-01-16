@@ -3,24 +3,27 @@ package test;
 public class Employee {
 	String name;
 	int age;
+	String designation;
 	
 	public Employee(){}
 	
-	public Employee(String name , int age){
+	public Employee(String name , int age, String designation){
 		this.name = name;
 		this.age = age;
+		this.designation = designation;
 	}
 	
-	public void printDetails(String name , int age){
-		System.out.println("Employeee Name is  jhh : " + name);
+	public void printDetails(String name , int age, String designation){
+		System.out.println("Employeee Name is : " + name);
 		System.out.println("Emplyoee Age is :" + age);
+		System.out.println("Employee Designation is :" + designation);
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		Employee e = new Employee();
-		e.printDetails("Nadee" , 24);
+		e.printDetails("John" , 24, "Software Engineering");
 		
 	}
 
