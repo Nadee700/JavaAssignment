@@ -12,7 +12,7 @@ public class Employee {
 	}
 	
 	public void printDetails(String name , int age){
-		System.out.println("Employeee Name " + name);
+		System.out.println("Employeee Name is  jhh : " + name);
 		System.out.println("Emplyoee Age is :" + age);
 	}
 
